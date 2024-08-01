@@ -1,0 +1,36 @@
+/*
+ * Filename: dd-styles.css
+ * 
+ * Description: Main stylesheet David's Disabler
+ * WordPress plugin
+ * 
+ * Author: David Logan
+ * Created: 2024-07-25
+ * Last modified: 2024-07-25
+ * 
+ * 
+ * Dependencies: 
+ * - none
+ * 
+ * Notes:
+ * - This stylesheet (tries to) follows BEM naming convention
+ *
+ */
+ 
+ 
+.checkboxes__comments-wrapper {
+    margin-bottom: 20px;
+}
+
+.checkboxes__comments-title {
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.checkbox__wrapper {
+    margin-bottom: 20px;
+}
+
+.checkbox__label-bold {
+    font-weight: bold;
+}
