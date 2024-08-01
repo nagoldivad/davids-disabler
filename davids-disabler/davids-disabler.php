@@ -150,11 +150,12 @@ function tgd_options_page_html() {
     <div class="wrap">
         <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
 
-        <?php // DEBUG ------
+        <?php
             $options_r = get_option('tgd_options');
-            echo "<div style='margin: 16px 0'><code>"; //DEBUG
-            var_dump($options_r); //DEBUG
-            echo "</code></div>"; //DEBUG
+            // --- DEBUG:
+            // echo "<div style='margin: 16px 0'><code>"; //DEBUG
+            // var_dump($options_r); //DEBUG
+            // echo "</code></div>"; //DEBUG
         ?>
         
         <form action="options.php" method="post">
